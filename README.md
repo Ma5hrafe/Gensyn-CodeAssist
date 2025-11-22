@@ -3,12 +3,24 @@ This guide shows you the easiest way to run CodeAssist on Octa using a single co
 
 <img src="images/codeassist.png" width="60%">
 
-# 🚀 CodeAssist on Octa — Minimal Setup Guide
+## Step 1: Create Your HuggingFace Token
 
-This repository provides the simplest and cleanest guide for running **CodeAssist** on **Octa**, designed for beginners and non-technical users.
+<p align="center">
+  <img src="images/step1.png" width="70%">
+</p>
 
-You can use **any GPU instance** on Octa —  
-(Recommendation: RTX 3090 or higher for smoother experience.)
+To run CodeAssist, you'll need a HuggingFace access token.
+
+1. Go to: https://huggingface.co  
+2. Sign in → Click your **Profile**  
+3. Open **Settings → Access Tokens**  
+4. Click **New Token**  
+5. Set:
+   - **Name:** CodeAssist (for example)  
+   - **Permissions:** Write (must)  
+6. Click **Create**  
+7. Copy the token immediately and keep it safe. (you won’t be able to see it again)
+
 
 ---
 
